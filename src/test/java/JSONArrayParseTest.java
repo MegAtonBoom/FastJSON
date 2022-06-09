@@ -33,7 +33,7 @@ public class JSONArrayParseTest extends junit.framework.TestCase {
     @Parameterized.Parameters
     public static Collection<Object[]> getParameters() {
         return Arrays.asList(new Object[][] {
-                {"[[id:123}]"},{"p{i:178}]"}
+                {"[{id3:123l"},{"p{i:178}]"}
         });
     }
 
