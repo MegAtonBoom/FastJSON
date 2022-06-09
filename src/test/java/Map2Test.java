@@ -3,22 +3,18 @@ import com.alibaba.fastjson.TypeReference;
 import junit.framework.TestCase;
 import org.junit.Assert;
 
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.Map;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 //@RunWith(Parameterized.class)
-public class MapTest2 extends TestCase {
+public class Map2Test extends TestCase {
 
     private String object;
     Map<Object, Object> map;
 
 
-    public MapTest2(){
+    public Map2Test(){
         configure("{1:\"2\",\"3\":4,'5':6}");
     }
 
