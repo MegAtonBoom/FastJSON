@@ -90,7 +90,7 @@
 
     <profiles>
         <profile>
-            <id>JaCoCo-coverage</id>
+            <id>jacoco-coverage</id>
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>
